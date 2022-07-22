@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/message_model.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/services/message_service.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/chat_bubble.dart';
+import 'package:apps_air/models/message_model.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/providers/auth_provider.dart';
+import 'package:apps_air/services/message_service.dart';
+import 'package:apps_air/theme.dart';
+import 'package:apps_air/widgets/chat_bubble.dart';
 
 class DetailChatPage extends StatefulWidget {
   ProductModel product;

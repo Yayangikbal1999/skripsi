@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/providers/wishlist_provider.dart';
+import 'package:apps_air/theme.dart';
 
 class WishlistCard extends StatelessWidget {
   final ProductModel product;

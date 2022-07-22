@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/pages/product_page.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/pages/product_page.dart';
+import 'package:apps_air/theme.dart';
 
 class ProductCard extends StatelessWidget {
   final ProductModel product;

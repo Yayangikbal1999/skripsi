@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/pages/home/chat_page.dart';
-import 'package:shamo/pages/home/home_page.dart';
-import 'package:shamo/pages/home/profile_page.dart';
-import 'package:shamo/pages/home/wishlist_page.dart';
-import 'package:shamo/providers/page_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/pages/home/chat_page.dart';
+import 'package:apps_air/pages/home/home_page.dart';
+import 'package:apps_air/pages/home/profile_page.dart';
+import 'package:apps_air/pages/home/wishlist_page.dart';
+import 'package:apps_air/providers/page_provider.dart';
+import 'package:apps_air/theme.dart';
 
 class MainPage extends StatefulWidget {
   @override

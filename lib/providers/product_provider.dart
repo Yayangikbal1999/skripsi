@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/services/product_service.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/services/product_service.dart';
 
 class ProductProvider with ChangeNotifier {
   List<ProductModel> _products = [];

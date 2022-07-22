@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/pages/detail_chat_page.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/pages/detail_chat_page.dart';
+import 'package:apps_air/providers/cart_provider.dart';
+import 'package:apps_air/providers/wishlist_provider.dart';
+import 'package:apps_air/theme.dart';
 
 class ProductPage extends StatefulWidget {
   final ProductModel product;

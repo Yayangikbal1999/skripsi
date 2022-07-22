@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:shamo/models/user_model.dart';
+import 'package:apps_air/models/user_model.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {

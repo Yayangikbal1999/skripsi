@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/user_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/providers/product_provider.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/product_card.dart';
-import 'package:shamo/widgets/product_tile.dart';
+import 'package:apps_air/models/user_model.dart';
+import 'package:apps_air/providers/auth_provider.dart';
+import 'package:apps_air/providers/product_provider.dart';
+import 'package:apps_air/theme.dart';
+import 'package:apps_air/widgets/product_card.dart';
+import 'package:apps_air/widgets/product_tile.dart';
 
 class HomePage extends StatelessWidget {
   @override

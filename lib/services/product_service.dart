@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:shamo/models/product_model.dart';
+import 'package:apps_air/models/product_model.dart';
 
 class ProductService {
   String baseUrl = 'https://shamo-backend.buildwithangga.id/api';

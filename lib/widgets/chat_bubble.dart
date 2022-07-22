@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/models/product_model.dart';
+import 'package:apps_air/theme.dart';
 
 class ChatBubble extends StatelessWidget {
   final String text;

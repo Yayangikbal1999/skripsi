@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/providers/page_provider.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/widgets/wishlist_card.dart';
+import 'package:apps_air/providers/page_provider.dart';
+import 'package:apps_air/providers/wishlist_provider.dart';
+import 'package:apps_air/widgets/wishlist_card.dart';
 
 import '../../theme.dart';
 

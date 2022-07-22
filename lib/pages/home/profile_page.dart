@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/user_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
+import 'package:apps_air/models/user_model.dart';
+import 'package:apps_air/providers/auth_provider.dart';
 
 import '../../theme.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/theme.dart';
 
 class CheckoutSuccessPage extends StatelessWidget {
   @override

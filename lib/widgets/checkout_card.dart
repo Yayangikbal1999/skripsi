@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/cart_model.dart';
-import 'package:shamo/theme.dart';
+import 'package:apps_air/models/cart_model.dart';
+import 'package:apps_air/theme.dart';
 
 class CheckoutCard extends StatelessWidget {
   final CartModel cart;
