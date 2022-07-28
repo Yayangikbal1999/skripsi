@@ -1,3 +1,4 @@
+import 'package:apps_air/pages/sign_up_page.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -260,25 +261,7 @@ class _ProductPageState extends State<ProductPage> {
                       wishlistProvider.setProduct(widget.product);
 
                       if (wishlistProvider.isWishlist(widget.product)) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            backgroundColor: secondaryColor,
-                            content: Text(
-                              'Has been added to the Wishlist',
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
-                        );
                       } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            backgroundColor: alertColor,
-                            content: Text(
-                              'Has been removed from the Wishlist',
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
-                        );
                       }
                     },
                     child: Image.asset(

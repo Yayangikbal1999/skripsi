@@ -1,3 +1,4 @@
+import 'package:apps_air/pages/sign_up_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:apps_air/providers/auth_provider.dart';
@@ -31,15 +32,6 @@ class _SignInPageState extends State<SignInPage> {
       )) {
         Navigator.pushNamed(context, '/home');
       } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            backgroundColor: alertColor,
-            content: Text(
-              'Gagal Login!',
-              textAlign: TextAlign.center,
-            ),
-          ),
-        );
       }
 
       setState(() {
